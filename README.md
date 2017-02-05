@@ -7,7 +7,7 @@ A library to make set/get/writing versioning information easier.
 Use `go get`:
 
 ```
-go get github.com/tonglil/versioning
+go get -u github.com/tonglil/versioning
 ```
 
 ## Usage
