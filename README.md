@@ -2,6 +2,14 @@
 
 A library to make set/get/writing versioning information easier.
 
+## Installation
+
+Use `go get`:
+
+```
+go get github.com/tonglil/versioning
+```
+
 ## Usage
 
 1. Add in `main.go`:
@@ -25,7 +33,7 @@ A library to make set/get/writing versioning information easier.
 1. Build your binary with this flag:
 
     ```bash
-    $ go build -ldflags "-X main.version=123-up-to-you"
+    go build -ldflags "-X main.version=123-up-to-you"
     ```
 
 ## Development
